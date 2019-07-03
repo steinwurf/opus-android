@@ -1,0 +1,16 @@
+[
+    {
+        "name": "waf-tools",
+        "resolver": "git",
+        "method": "semver",
+        "major": 4,
+        "sources": ["github.com/steinwurf/waf-tools.git"]
+    },
+    {
+        "name": "opus",
+        "resolver": "git",
+        "method": "checkout",
+        "checkout": "master",
+        "sources": ["github.com/steinwurf/opus.git"]
+    }
+]
