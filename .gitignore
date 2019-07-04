@@ -81,6 +81,7 @@ gradle_build
 
 # Steinwurf
 resolve_symlinks/
+build_current/
 
 # VScode
 .vscode
