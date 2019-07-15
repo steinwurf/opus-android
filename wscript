@@ -3,8 +3,8 @@
 
 import os
 
-APPNAME = 'maudio-android'
-VERSION = '23.0.2'
+APPNAME = 'opus-android'
+VERSION = '0.0.0'
 
 
 def configure(conf):
@@ -24,7 +24,7 @@ def build(bld):
 
     bld.env.append_unique(
         'DEFINES_STEINWURF_VERSION',
-        'STEINWURF_MAUDIO_ANDROID_VERSION="{}"'.format(VERSION))
+        'STEINWURF_OPUS_ANDROID_VERSION="{}"'.format(VERSION))
 
     bld.recurse('jni')
 
